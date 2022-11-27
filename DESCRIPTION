@@ -1,0 +1,15 @@
+Package: deconv3
+Type: Package
+Title: Density Deconvolution Under Measurement Error via Tikhonov Regularization
+Version: 1.00
+Date: 2021-02-11
+Author: David Kent
+Maintainer: David Kent <dk657@cornell.edu>
+Description: Implements non-parametric density estimation from observations polluted with measurement error; errors are assumed to have known density. Estimation is via Tikhonov regularization with smoothing regularizer.
+License: GPL-3
+RoxygenNote: 7.1.1
+Imports: pracma, quadprog, splines
+NeedsCompilation: no
+Packaged: 2021-02-15 16:55:54 UTC; davidk
+ByteCompile: true
+Encoding: UTF-8
